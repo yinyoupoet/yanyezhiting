@@ -178,16 +178,24 @@
  		padding-bottom: 4px; 
  		font-size: 100%;
  	}
- 	.data{
- 		font-weight: bold;
- 		color: #537f68
+ 	.outfirm li{
+ 		list-style: none;
+ 		list-style-type: none;
+ 		display:list-item;
  	}
+
  	.article{
  		font-size: 13px;
  	}
  	.article li{
+ 		list-style-type: none;
 		list-style: none;
 		display: list-item;
+ 	}
+ 	.data{
+ 		list-style:none;
+ 		font-weight: bold;
+ 		color: #537f68
  	}
  	._body{
  		font-weight: bold;
