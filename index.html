@@ -1,96 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--0000是滑动行，0011是导航栏，0012是主页和下面一大块,0013是详细介绍的中介，0014是照片，0015是发帖区，0016是锚点，0017是详细介绍的主体-->
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>言叶之庭</title>
-	<link rel="shortcut icon" href="./image/yan.ico" type="image/x-icon"/> 
-
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	
+<title>老子天下第一之————框架结构之闹着玩</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"> 
 </head>
+<frameset rows="3%,30%,*" border="0" bordercolor="#b513ff">
+<frame src="0000.html" scrolling="no">
+<frame src="0011.html" name="topguide" scrolling="no" noresize />
+<frame src="0012.html" name="main" />
+</frameset>
+<noframes>
 <body>
-
-
-	<div id="left">
-		<div id="top">
-			<ul>
-				<li class="nav_1"><a href="http://www.kotonohanoniwa.jp/news/">最新情报</a></li>
-				<li class="nav_2"><a href="http://www.kotonohanoniwa.jp/page/product.html">作品简介</a></li>
-				<li class="nav_3"><a href="http://www.kotonohanoniwa.jp/page/characters.html">登场人物</a></li>
-				<li class="nav_4"><a href="http://www.kotonohanoniwa.jp/page/staff.html">スタッフ</a></li>
-				<li class="nav_5"><a href="http://www.kotonohanoniwa.jp/page/theater.html">剧场情报</a></li>
-				<li class="nav_6"><a href="http://www.kotonohanoniwa.jp/page/item.html">関連商品</a></li>
-				<li class="nav_7"><a href="http://www.youtube.com/embed/udDIkl6z8X0?rel=0&autoplay=1&theme=dark&autohide=1&start=0">预告篇</a></li>
-				<li class="nav_8"><a href="http://www.kotonohanoniwa.jp/special/">スペシャル</a></li>
-			</ul>	
-		</div>
-
-		<div id="main">
-			<div id="leaf">
-				<a target="_blank" href="http://ddnavi.com/feature/158839/"><img src="./image/novel_kotonoha_off.png" name="leafpic" onmouseover="mouseOver()" onmouseleave="mouseLeave()"></a>
-			</div>
-			<div id="down">
-				<img src="./image/disc2.png">
-			</div>
-		</div>
-
-	</div>
-
-	<div id="right">
-		<div id="upper">
-			<a href="http://www.kotonohanoniwa.jp"></a>
-		</div>
-		<div id="mid">
-			<p id="mid_facebook"><a href="https://www.facebook.com/shinkaiworks/" target="_blank"></a></p>
-			<p id="mid_tw"><a href="https://twitter.com/shinkai_works" target="_blank"></a></p>
-		</div>
-
-		<div id="news">
-			<h2 class="bo">最新情报</h2>
-			<ul class="outfirm">
-				<li>
-					<ul class="article">
-						<li class="data">2016/10/4</li> 
-						<li class="_body"><a href="http://www.kotonohanoniwa.jp/news/">全国各地にてリバイバル上映決定！</a></li>
-					</ul>
-					<ul class="article">
-						<li class="data">2016/2/13</li>
-						<li class="_body"><a href="http://www.kotonohanoniwa.jp/news/">文庫版『小説 言の葉の庭』『小説 秒速5センチメートル』発売！</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		<footer id="right_footer">
-			<p id="cwf_link">
-				<a href="http://www.cwfilms.jp/" target="_blank">
-					<img src="./image/cwf_link.png" alt="CoMix Wave Films">
-				</a>
-			</p>
-			<p id="contact">
-				<a href="mailto:info@cwfilms.jp">＜お問合せ＞</a>
-			</p>
-			<p id="copy">cMakoto Shinkai / CoMix Wave Films</p>
-
-		</footer>
-
-	</div>
-	<div id="bg">
-		<img src="./image/top_bg.jpg" width="100%" height="100%" id='bgpic'>
-	</div>
-	
-
+<center>
+<p><font face="楷体" size="6" color="red">抱歉，您的浏览器不支持框架结构</p>
+</center>
 </body>
-
-<script type="text/javascript">
-
-
-	function mouseOver(){
-		document.leafpic.src="./image/novel_kotonoha_on.png";
-	}
-	function mouseLeave(){
-		document.leafpic.src="./image/novel_kotonoha_off.png";
-	}
-
-
-</script>
-</html> 
+</noframes>
+</html>
