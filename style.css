@@ -3,12 +3,7 @@
 	padding: 0;
 }
 
-body{
-	background-image: url(./image/top_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: fixed;
-}
+
 
 #top ul li{
 	float: left;
