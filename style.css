@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#top ul li{
+	float: left;
+	padding: 0 5px;
+	list-style: none;
+	text-indent: -2000px;
+}
+#top a{
+	text-decoration: none;
+	display: block;
+	width: 76px;
+	height: 52px;
+	color: #68584a;
+	text-align: center;
+
+	margin: 0;
+}
+#top ul{
+	margin-left: 60px;
+}
+#top{
+	width: 100%;
+	height: 56px;
+	background: url(./image/top_nav.png);
+	margin: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.nav_1 a{
+	background-image: url(./image/top_nav1.png);
+	background-repeat: no-repeat;
+}
+.nav_1 a:hover{
+	background-image: url(./image/top_nav1_on.png);
+	background-repeat: no-repeat;
+}
+.nav_2 a{
+	background-image: url(./image/top_nav2.png);
+	background-repeat: no-repeat;
+}
+.nav_2 a:hover{
+	background-image: url(./image/top_nav2_on.png);
+	background-repeat: no-repeat;
+}
+.nav_3 a{
+	background-image: url(./image/top_nav3.png);
+	background-repeat: no-repeat;
+}
+.nav_3 a:hover{
+	background-image: url(./image/top_nav3_on.png);
+	background-repeat: no-repeat;
+}
+.nav_4 a{
+	background-image: url(./image/top_nav4.png);
+	background-repeat: no-repeat;
+}
+.nav_4 a:hover{
+	background-image: url(./image/top_nav4_on.png);
+	background-repeat: no-repeat;
+}
+.nav_5 a{
+	background-image: url(./image/top_nav5.png);
+	background-repeat: no-repeat;
+}
+.nav_5 a:hover{
+	background-image: url(./image/top_nav5_on.png);
+	background-repeat: no-repeat;
+}
+.nav_6 a{
+	background-image: url(./image/top_nav6.png);
+	background-repeat: no-repeat;
+}
+.nav_6 a:hover{
+	background-image: url(./image/top_nav6_on.png);
+	background-repeat: no-repeat;
+}
+.nav_7 a{
+	background-image: url(./image/top_nav7.png);
+	background-repeat: no-repeat;
+}
+.nav_7 a:hover{
+	background-image: url(./image/top_nav7_on.png);
+	background-repeat: no-repeat;
+}
+.nav_8 a{
+	background-image: url(./image/top_nav8.png);
+	background-repeat: no-repeat;
+}
+.nav_8 a:hover{
+	background-image: url(./image/top_nav8_on.png);
+	background-repeat: no-repeat;
+}
+
+#back{
+	margin-top: 0px;
+	position: absolute;
+	z-index: 0;
+}
+
+ 	#leaf{
+ 		position: absolute;
+ 		left:20px;
+ 		top:60px;
+ 	}
+ 	#down{
+ 		position: fixed;
+ 		bottom: 10px;
+ 		left: 10px;
+ 	}
+ 	#right{
+ 		position: fixed;
+ 		width: 193px;
+ 		height: 100%;
+ 		right: 0;
+ 		z-index: 5;
+ 		background-image: url(./image/top_head.png);
+ 		background-repeat: no-repeat;
+ 	}
+ 	#upper a{
+ 		text-decoration: none;
+ 		display: block;
+		background-image: url(./image/top_logo.png);
+		background-repeat: no-repeat;
+		width: 188px;
+		height: 381px;
+ 	}
+ 	#mid_facebook {
+ 		margin-top: 10px;
+ 		position: absolute;
+ 		left: 13px;
+ 	}
+ 	#mid_facebook a{
+ 		background-image: url(./image/top_facebook_off.png);
+ 		background-repeat: no-repeat;
+ 		display: block;
+ 		width: 124px;
+ 		height: 38px;
+ 	}
+ 	#mid_facebook a:hover{
+ 		background-image: url(./image/top_facebook_on.png);
+ 		background-repeat: no-repeat;
+ 	}
+ 	#mid_tw{
+ 		margin-top: 10px;
+ 		position: absolute;
+ 		left: 137px;
+ 	}
+ 	#mid_tw a{
+ 		background-image: url(./image/top_twitter_off.png);
+ 		background-repeat: no-repeat;
+ 		display: block;
+ 		width: 47px;
+ 		height: 38px;
+ 	}
+ 	#mid_tw a:hover{
+ 		background-image: url(./image/top_twitter_on.png);
+ 		background-repeat: no-repeat;
+ 	}
+
+ 	#news{
+		position: absolute;
+		top: 432px;
+		left: 15px;
+		width: 167px;
+		height: 162px;
+		background-image: url(./image/top_news_bg.png);
+		background-repeat: no-repeat;
+ 	}
+ 	.bo {
+ 		color: #537f68;
+ 		font-weight: bold;
+ 		text-align: center;
+ 		padding-top:8px;
+ 		padding-bottom: 4px; 
+ 		font-size: 100%;
+ 	}
+ 	.data{
+ 		font-weight: bold;
+ 		color: #537f68
+ 	}
+ 	.article{
+ 		font-size: 13px;
+ 	}
+ 	.article li{
+		list-style: none;
+		display: list-item;
+ 	}
+ 	._body{
+ 		font-weight: bold;
+ 	}
+ 	._body a{
+ 		font-size: 100%;
+ 		text-decoration: none;
+ 		color: #68584a;
+ 	}
+ 	._body a:hover{
+		color: gray;
+ 	}
+ 	#cwf_link{
+ 		position: absolute;
+ 		bottom: 27px;
+ 		right: 28px;
+ 	}
+ 	#contact{
+ 		position: absolute;
+ 		bottom: 29px;
+ 		font-size: 10px;
+ 		left: 21px;
+ 		color: #574535;
+ 	}
+ 	#contact a{
+ 		text-decoration: none;
+ 		color: #574535;
+ 	}
+ 	#contact a:hover{
+ 		color: gray;
+ 	}
+ 	#copy{
+ 		position: absolute;
+ 		padding-right: 24px;
+ 		width: 193px;
+ 		text-align: center;
+ 		font-size: 9px;
+ 		bottom: 8px;
+ 		color: #434343;
+ 	}
+
+
+
